@@ -1,0 +1,105 @@
+.userInfo,
+.leaveRecordBox,
+.adSummary {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.infoLeaveAttend {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.userAvatar {
+  width: 8rem;
+  height: 8rem;
+}
+
+.leaveRecordBox {
+  justify-content: space-around;
+}
+
+.leaveRecord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, white 90%, transparent 20% 100%),
+    conic-gradient(#16c098 60%, #c4c4c4 0);
+}
+
+.eachLeaveRecord {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eachAttendanceMonth,
+.earningSalaryList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.monthAddIcon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.month {
+  font-size: 1.8rem;
+}
+
+.adSummary {
+  flex-direction: column;
+  align-items: normal;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.infoLeave {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.attendanceEarning {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--grey-border);
+}
+
+.attendanceEarning:nth-of-type(3){
+  border-bottom: none;
+
+}
+
+.earningSalaryList {
+  padding: 0;
+  /* border: 1px solid red */
+}
+
+.eachEarningSalaryList {
+  font-size: 1.5rem;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .infoLeaveAttend {
+    flex-direction: row;
+  }
+  .userInfo,
+  .leaveRecordBox {
+    width: 40rem;
+  }
+}

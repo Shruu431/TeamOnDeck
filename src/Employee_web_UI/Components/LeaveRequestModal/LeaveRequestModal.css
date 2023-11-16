@@ -1,0 +1,99 @@
+.fontweight {
+    font-size: 14px;
+    color: #1C1243;
+
+}
+.display {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.backDrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: hidden;
+    z-index: 5;
+    background-color: rgba(28, 18, 67, 0.61);
+  }
+  
+  .leaveModal {
+    display: grid;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    width: 50rem;
+    border-radius: 5px;
+  }
+  
+  .eachEmployee {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  .nameAvatar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .headCrossIcon {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  .select{
+    height:45px;
+    border-radius: 5px;
+    border-color: #A29EB6;
+    background-color: #FFFFFF
+    ;
+    margin-top: 10px;
+    padding: 10px;
+    color: #1C1243;
+    font-size: 14px;
+    font-family: poppins;
+
+
+  }
+
+  .description{
+    border-radius: 5px;
+    border-color: #A29EB6;
+    background-color: #FFFFFF
+    ;
+    margin-top: 10px;
+    padding: 20px;
+    color: #1C1243;
+    font-size: 14px;
+    font-family: poppins;
+
+
+  }
+  .addicon {
+    font-size: 30px;
+  }
+
+  .addImage {
+    color: #643FDB;
+    font-size: 14px;
+    margin-left: 7px;
+
+  }
+  .button_container{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button{
+    background-color: #643FDB;
+    width:269px;
+    height: 50px
+  }
